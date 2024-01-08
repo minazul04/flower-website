@@ -1,11 +1,12 @@
 ('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-button{
+button {
     color: #FFF;
     font-size: 20px;
     border: none;
@@ -13,74 +14,74 @@ button{
     border-radius: 8px;
     background: #E55473;
     padding: 15px 28px;
-   
+
 }
 
-p{
-color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-header{
+header {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
-.container{
+.container {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.container2{
-display: flex;
-align-items: center;
-justify-content: space-between;
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.container2 .banner-text *{
+.container2 .banner-text * {
     margin-bottom: 32px;
     width: 525px;
 }
 
-.container2 .banner-text h1{
-color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-style:normal;
-font-weight: 800;
-line-height: normal;
+.container2 .banner-text h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
-.banner-img img{
-width: 100%;
-vertical-align: middle;
-normal;
-font-weight: 800;
-line-height: normal;
+
+.banner-img img {
+    width: 100%;
+    vertical-align: middle;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.section-heading{
+.section-heading {
     width: 444px;
     text-align: center;
     margin: 20px auto;
 }
 
-#feature{
+#feature {
     padding: 100px 0;
 }
 
-.section-content{
+.section-content {
     display: flex;
     justify-content: space-between;
     align-items: end;
     gap: 20px;
 }
 
-.section-content .flower-img{
+.section-content .flower-img {
     background-color: #d8a1ad;
     border-radius: 300px 300px 0px 0px;
     padding: 30px 15px;
@@ -89,37 +90,38 @@ line-height: normal;
     align-items: end;
 }
 
-.section-content .flower-img img{
+.section-content .flower-img img {
     width: 100%;
 }
 
-.section-content. flower .flower .pink{
+.section-content. flower .flower .pink {
     background: rgba(167, 33, 98, 0.15);
-    
+
 }
-.section-content .flower.blue{
+
+.section-content .flower.blue {
     background: rgba(5, 151, 160, 0.15);
 
     1x
-    
-    
 }
-.section-content .flower .green{
+
+.section-content .flower .green {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.section-content .flower p{
+.section-content .flower p {
     color: #272727;
-text-align: center;
-margin-top: 16px;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px; /* 145.833% */
-text-decoration-line: underline;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
 }
 
-.div1{
+.div1 {
     width: 75%;
     max-width: 1440;
     margin: 0 auto;
@@ -131,3 +133,44 @@ text-decoration-line: underline;
     padding: 50px 250px;
 
 }
+
+.div-hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.hot-deal {
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.hot-deal .div-hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    vertical-align: middle;
+    margin: 24px;
+    text-align: center;
+}
+span{
+    color:#E55473
+}
+
+.hot-deal-img{
+max-width: 318px;
+}
+
+.instragram{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
